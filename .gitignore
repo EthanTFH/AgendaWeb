@@ -1,5 +1,3 @@
 #ignore everything in the 'data.d' directory
 data/
 .vscode/
-icons/
-css/

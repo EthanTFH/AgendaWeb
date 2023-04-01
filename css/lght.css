@@ -1,21 +1,73 @@
+#messageInputBox {
+    text-align: left;
+    background-color: white;
+    border:0px;
+    border-bottom:1px dashed purple;
+    border-bottom-right-radius: 12px;
+    width: calc(100% - 5px);
+    height:25px;
+}
+
+#messageTitle {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#messageContainer,#messageBox{
+    border: 2px solid purple;
+    width: 100%;
+    height: 175px;
+}
+
+#submitMessage {
+    position:relative;
+    top: 120px;
+    left: calc(100% - 127px);
+    width: 125px;
+    height: 25px;
+    font-weight:bolder;
+    color:black;
+    border: 1px inset #FF00FF;
+    background-color: #FFAAFF;
+}
+
+#submitMessage:hover{
+    color: white;
+    border: 1px outset #FFAAFF;
+    background-color: #FF00FF;
+}
+
+#contentBackground{
+    position:absolute;
+    left:225px;
+    top:0px;
+    width: calc(50% - 125px);
+}
+
 #sidebar{
-    width:100px;
+    width:200px;
     height:100%;
     background-color:purple;
-    position:absolute;
+    position:sticky;
     left:0px;
     top:0px;
+    z-index: 2;
+}
+
+#icon, #iconIMG, #homeIMG{
+    position: relative;
+    left: calc(75% - 100px);
+    top: 0px;
+    width: 100px;
+    height: 100px;
 }
 
 #iconIMG{
-    width:100px;
-    height:100px;
     filter: invert(100%) saturate(10);
 }
 
 #homeIMG{
-    width:100px;
-    height:100px;
     filter: invert(100%) saturate(10);
 }
 

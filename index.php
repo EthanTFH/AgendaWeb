@@ -19,6 +19,28 @@
             <a href="#"><img id="iconIMG" src="icons/tlw256.png"/></a>
             <hr id="sidebarSplit">
             <a href="index.php"><img id="homeIMG" src="icons/thw256.png"/></a>
+            <a href="about.php">About</a>
+        </div>
+        <div id="contentBackground">
+            <div id="messageBox">
+                <form action="index.php" method="post">
+                    <input type="text" name="messageInputBox" id="messageInputBox" value="Message" />
+                    <input type="submit" id="submitMessage" value="Send" />
+                </form>
+            </div>
+            <div id="messageContainer">
+                <p id="messageTitle">
+                    Hello
+                </p>
+                <hr id="msgInternalSeperator">
+                <p id="messageBody">
+                    Hello.
+                </p>
+                <hr id="msgInternalSeperator2">
+                <div id="msgControls">
+                    <a href="#" id="likeButton"><img src="icons/thw256.png" /></a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
